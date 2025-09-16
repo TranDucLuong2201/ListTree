@@ -1,0 +1,10 @@
+# Detekt default configuration
+build:
+  maxIssues: 10
+  weights:
+    complexity: 2
+    LongParameterList: 1
+style:
+  WildcardImport:
+    active: true
+# Thêm các rules khác theo ý bạn...
